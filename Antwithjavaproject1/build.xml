@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="run" name="Kavya's first ANT proj - compile and run JAVA class">
 <target name="run" depends="compile">
-<java classname="com.code"> 
+<java classname="com.kavya.Demo"> 
 <classpath path="staging"/>
 </java>
 </target>
