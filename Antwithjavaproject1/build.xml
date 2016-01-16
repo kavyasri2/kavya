@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="run" name="Kavya's first ANT proj - compile and run JAVA class">
+<target name="run" depends="compile">
+<java classname="com.code"> 
+<classpath path="staging"/>
+</java>
+</target>
+<target name="compile">
+<javac includeantruntime="false" srcdir="./src" destdir="staging"/>
+</target>
+</project>
